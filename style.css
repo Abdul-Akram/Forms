@@ -1,0 +1,75 @@
+body{
+    margin: 5% auto;
+    border: 2px solid black;
+    max-width:600px;
+    padding: 0;
+    border-radius: 10px;
+    background-image: url(shade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main{
+    margin: 0;
+    font-size: 1.2rem;
+    background-color: rgba(179, 183, 180, 0.26);
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+header h1{
+    font-size: 2.8rem;
+    margin: 0;
+    background-color: rgba(179, 183, 180, 0.26);
+    border-radius: 10px 10px 0 0 ;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+main form table tr td{
+    padding-top: 40px;
+}
+
+main form table button{
+    padding: 8px;
+    border-radius: 15px;
+    margin: 2px;
+    color: white;
+    background-color: black;
+}
+main form table #b1:hover{
+    background-color: rgb(47, 0, 255);
+    color: white;
+}
+
+main form table #b2:hover{
+    background-color: red;
+    color: white;
+}
+
+input:focus{
+    background-color: rgba(181, 230, 194, 0.747);
+}
+
+@media (min-width:320px) and (max-width:600px){
+    body{
+        margin: 1% auto;
+        max-width: 420px;
+        background-image: url(shade.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    main{
+        font-size: 1rem;
+        padding-bottom: 30px;
+    }
+    header h1{
+        padding: 30px;
+        font-size: 2.5rem;
+    }
+}

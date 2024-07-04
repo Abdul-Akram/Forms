@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+
+<body>
+    <header class="heading"><h1>Forms</h1></header>
+    <main>
+        <form class="forms" action="" method="">
+            <table>
+            <tr>
+                <td><label for="roll">Roll No:</label></td>
+                <td><input type="number" name="roll" id="roll" placeholder="1" required autofocus></td>
+            </tr>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" name="name" id="name" placeholder="Akram" required ></td>
+            </tr>
+            <tr>
+                <td><label for="dept">Department:</label></td>
+                <td><select name="dept" id="dept">
+                    <optgroup label="Techniacal">
+                        <option value="CSE">CSE</option>
+                        <option value="AIML" selected>AIML</option>
+                        <option value="IT">IT</option>
+                        <option value="ECE">ECE</option>
+                    </optgroup>
+                    <optgroup label="Non-Techincal">
+                        <option value="Mech">Mechanical</option>
+                        <option value="civil">Civil</option>
+
+                    </optgroup>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="mark10">10TH Marks:</label></td>
+                <td><input type="number" name="mark10" id="mark10" placeholder="85%" required ></td>
+            </tr>
+
+            <tr>
+                <td><label for="mark12" >12TH Marks:</label></td>
+
+                <td><input type="number" name="mark12" id="mark12" placeholder="85%" required ></td>
+            </tr>
+            <tr style="column-span: 2;">
+                <td></td>
+                <td><button id="b1" type="submit">Submit</button>
+                <button id="b2" type="reset">Cancel</button></td>
+            </tr>
+            </table>
+        </form>
+    </main>
+</body>
+
+</html>
